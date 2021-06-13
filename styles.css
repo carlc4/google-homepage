@@ -30,7 +30,16 @@ body {
   }
 
 
+  .whole-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
   .google-navbar {
+   
+    display: inline-block;
+
     
   }
 
@@ -38,7 +47,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    width: 50%;
+    text-align: center;    
   }
 
   .search-and-buttons {
@@ -46,17 +56,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
   }
 
   .google-footer1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 15px 30px;
     color: rgba(0, 0, 0, 0.54);
     background-color: rgba(0, 0, 0, 0.05);
     border-bottom: #dadce0;
-  }
-
-  .google-footer2 {
-    color: rgba(0, 0, 0, 0.54);
-    background-color: rgba(0, 0, 0, 0.05);
     padding: 15px;
+}
+
+  .united-kingdom {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
 }
