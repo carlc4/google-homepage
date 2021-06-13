@@ -3,30 +3,28 @@ body {
     font-size: 14px;
     font-family: arial,sans-serif;
   }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
 
   ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex-flow: row nowrap;
+ /*   justify-content: space-around; */
   }
 
   li {
+    display: flex;
     display: inline-block;
     padding: 5px;
     margin: 0 5px;
     color: #222;
     text-decoration: none;
+
   }
 
   a {
     display: block;
-    padding: 8px;
   }
 
 
@@ -37,29 +35,29 @@ body {
   }
 
   .google-navbar {
-   
-    display: inline-block;
+    display: flex;
+  }
 
-    
+  .google-navbar2 {
+    display: flex;
+    margin-left: auto;
   }
 
   .google-banner {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     text-align: center;    
   }
 
   .search-and-buttons {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
+    margin: auto;
   }
 
-  .google-footer1 {
+  .google-footer {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -67,11 +65,23 @@ body {
     color: rgba(0, 0, 0, 0.54);
     background-color: rgba(0, 0, 0, 0.05);
     border-bottom: #dadce0;
-    padding: 15px;
+
 }
 
+  .google-footer2 {
+    margin-right: auto;
+  }
+
+  .google-footer3 {
+    margin: auto;
+  }
+
+  .google-footer4 {
+    margin-left: auto;
+  }
+
   .united-kingdom {
-    padding: 15px 30px;
+/*    padding: 15px 30px; */
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: rgba(0,0,0,.54);
