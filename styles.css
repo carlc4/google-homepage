@@ -8,22 +8,23 @@ body {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     flex-flow: row nowrap;
- /*   justify-content: space-around; */
   }
 
   li {
     display: flex;
     display: inline-block;
     padding: 5px;
-    margin: 0 5px;
-    color: #222;
-    text-decoration: none;
-
+    margin: 5px;
   }
 
   a {
+    display: block;
+    text-decoration: none;
+  }
+
+  a:hover {
     display: block;
   }
 
@@ -43,6 +44,7 @@ body {
     margin-left: auto;
   }
 
+  
   .google-banner {
     display: block;
     margin: auto;
@@ -61,27 +63,34 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 15px 30px;
     color: rgba(0, 0, 0, 0.54);
     background-color: rgba(0, 0, 0, 0.05);
     border-bottom: #dadce0;
-
 }
 
   .google-footer2 {
-    margin-right: auto;
+    display: flex;
+    color: rgba(0,0,0,.54);
   }
 
   .google-footer3 {
-    margin: auto;
+    display: flex;
+    color: rgba(0,0,0,.54);
   }
 
-  .google-footer4 {
+/*  ul.privacy {  
+    display: flex;
     margin-left: auto;
+  } */
+
+  .google-footer4 {
+    display: flex;
+    margin-left: auto;
+    color: rgba(0,0,0,.54);
+
   }
 
   .united-kingdom {
-/*    padding: 15px 30px; */
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: rgba(0,0,0,.54);
