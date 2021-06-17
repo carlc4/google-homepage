@@ -95,3 +95,67 @@ body {
     font-size: 15px;
     color: rgba(0,0,0,.54);
 }
+
+.signin {
+font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: .25px;
+line-height: 16px;
+margin-left: 10px;
+margin-right: 8px;
+min-width: 96px;
+padding: 9px 23px;
+text-align: center;
+vertical-align: middle;
+border-radius: 4px;
+box-sizing: border-box;
+background: #1a73e8;
+border: 1px solid transparent;
+color: white;
+}
+
+.signin:hover {
+  background: #5d91d4;
+}
+
+.search {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.search:hover {
+  border: 1px solid #f8f9fa96;
+}
+
+.searchbar {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+  width: auto;
+}
+
+.searchbar:hover {
+border-bottom-left-radius: 1;
+border-bottom-right-radius: 1;
+border-color: rgba(223,225,229,0);
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
