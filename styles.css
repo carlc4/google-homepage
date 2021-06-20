@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 5px;
     flex-flow: row nowrap;
+
   }
 
   li {
@@ -22,6 +23,15 @@ body {
   a {
     display: block;
     text-decoration: none;
+    color: rgba(0,0,0,.54);
+  }
+
+  a.list1 {
+    color: black
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   a:hover {
@@ -49,7 +59,17 @@ body {
     display: block;
     margin: auto;
     width: 50%;
-    text-align: center;    
+    text-align: center;
+    vertical-align: top;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+  }
+
+  .banner {
+    width: 272px;
+    height: 92px;
+    object-fit: contain;
   }
 
   .search-and-buttons {
@@ -87,7 +107,6 @@ body {
     display: flex;
     margin-left: auto;
     color: rgba(0,0,0,.54);
-
   }
 
   .united-kingdom {
@@ -126,7 +145,7 @@ color: white;
   color: #3c4043;
   font-family: arial,sans-serif;
   font-size: 14px;
-  margin: 11px 4px;
+  /* margin: 11px 4px; */
   padding: 0 16px;
   line-height: 27px;
   height: 36px;
@@ -141,6 +160,12 @@ color: white;
 }
 
 .searchbar {
+  border: none;
+  width: 482px;
+  outline: none;
+}
+
+.invisiblebox {
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
@@ -150,12 +175,12 @@ color: white;
   height: 44px;
   margin: 0 auto;
   width: 482px;
-  width: auto;
 }
 
-.searchbar:hover {
+.invisiblebox:hover {
 border-bottom-left-radius: 1;
 border-bottom-right-radius: 1;
 border-color: rgba(223,225,229,0);
 box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
+

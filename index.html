@@ -16,14 +16,14 @@
 <div class="whole-page">
     <div class="google-navbar">
         <ul>
-            <li><a href="">About</a></li>  
-            <li><a href="">Store</a></li>
+            <li><a class="list1" href="">About</a></li>  
+            <li><a class="list1" href="">Store</a></li>
         </ul>    
         
         <div class="google-navbar2">
             <ul>
-            <li><a href="">Gmail</a></li>      
-            <li><a href="">Images</a></li>      
+            <li><a class="list1" href="">Gmail</a></li>      
+            <li><a class="list1" href="">Images</a></li>      
             <li></style> <a href=""><i style="font-size:26px;color:grey" class="material-icons">apps</i></a></li>      
         <!--    <li><a href=""><b style="background-color: blue;color: white;">Sign In</b></a></li>      -->
             <li>
@@ -38,13 +38,15 @@
     </div>
 
     <div class="google-banner">
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+        <img class="banner" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
     </div>
 
     <div class="search-and-buttons">
         <form>
-            <i style="font-size:16px;color:grey;" class="material-icons">search</i>
+            <div class="invisiblebox">
+            <i style="font-size:16px;color:grey;margin-top: 15px;margin-left: 15px;" class="material-icons">search</i>
             <input class="searchbar" type="text" id="searchbox" name="searchtext">
+        </div>
             <br>
             <button class="search" type="submit">
                 <label for="search">Google Search</label>
@@ -52,7 +54,8 @@
             <button class ="search" type="submit">
                 <label for="lucky">I'm Feeling Lucky</label>
             </button>
-       </form>
+            
+        </form>
     </div>
 
     <div class="google-footer">
